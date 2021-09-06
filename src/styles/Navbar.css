@@ -1,0 +1,100 @@
+
+nav{
+  position: fixed;
+  background: #fff;
+  padding-top: 1em;
+  height: 2.7em;
+  width: 100%;
+  z-index: 99;
+}
+.nav-active{
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.nav{
+    box-shadow: none;
+}
+nav label{
+    font-size: 1.7em;
+    color: #fbbc05;
+    padding-left: 2em;
+    line-height: 10px;
+}
+nav ul{
+    float: right;
+    margin-right: 1em;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    list-style: none;
+    margin: 0 1em;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #385A64;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid #fbbc05;
+    transition: 0.1s ease;
+}
+
+button.bars{
+     display: none;
+     float: right;
+     background: transparent;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     margin-right: 2em;
+     color: #385A64;
+     line-height: 50px;
+}
+
+
+@media screen and (max-width: 850px) {
+   .nav{
+       position: fixed;
+       z-index: 99;
+   }
+    nav label{
+        font-size: 1.8em;
+        padding-left: 0.5em;
+    }
+    nav ul{ 
+        position: fixed;
+        width: 50%;
+        height: 100%;
+        top: 0;
+        left: -4em;
+        text-align: center;
+        background: rgba(231, 231, 231, 0.986);
+        z-index: 99;
+    }
+    nav ul li {
+        display: block;
+        margin: 2em 0 0 0;
+    }
+    nav ul li a{
+        font-size: 1.2em;
+        border-bottom: none;
+    }
+    button.bars{
+        display: block;
+   }
+   
+button.bars:active{
+    transform: rotate(45deg);
+}
+
+   .left{
+       left: 0;
+       transition: all 0.7s;
+   }
+
+   .right{
+       left: -100%;
+       transition: all 0.7s;
+   }
+}

@@ -1,0 +1,42 @@
+
+.home{
+    padding-left: 4em;
+    padding-top: 5em;
+}
+.description p {
+    font-size: 1.3em;
+}
+.description h2,
+p {
+    margin-bottom: 0.6em;
+    font-size: 2em;
+}
+
+.buttons button{
+    background: #fbbc05;
+    border-radius: 5px;
+    padding: 10px 17px;
+    margin: 1em 1em 0 0;
+    font-weight: 500;
+    font-size: 0.8em;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons .resumeBtn{
+    border: 1px solid #fbbc05;
+    color: #fff;
+}
+.buttons .hireBtn{
+    border: 1px solid #fbbc05;
+    background: transparent;
+    color: #fbbc05;
+}
+
+
+@media screen and (max-width:850px ){
+    .home{
+        padding-left: 1em;
+        padding-top: 5em;
+    }
+}

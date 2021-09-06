@@ -1,0 +1,61 @@
+
+.contact{
+    padding-top: 3em;
+}
+.contact h2{
+    text-align: center;
+    color: #385A64;
+}
+
+.contact-info .contact-in{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     padding-top: 3em;
+     padding-left: 3em;
+}
+
+.contact-info div .icon {
+    position: absolute;
+    background: rgb(251, 188, 5,0.5);
+    color: #fbbc05;
+    padding: 10px 10px;
+    border-radius: 50px;
+    
+}
+.contact-info div .icon:hover{
+    background: #fbbc05;
+    color: #fff;
+    transition: 0.3s;
+}
+.contact-info div .icon i{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-info 
+div .info {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-left: 3em;
+}
+.contact-info 
+div .info h3{
+    color: #385A64;
+}
+.contact-info 
+div .info p{
+    font-size: 1em;
+}
+
+@media screen and (max-width:750px){
+    .contact-info .contact-in{
+        grid-template-columns: 1fr;
+        padding-left: 0.5em;
+     }
+     .contact-info .contact-in div{
+         margin-top: 1em;
+     }
+}

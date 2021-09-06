@@ -1,0 +1,41 @@
+
+footer{
+    background: #ebc964;
+    height: 10em;
+    min-width: 100%;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons .icon{
+    background: rgb(251, 188, 5,0.5);
+    padding: 10px 10px;
+    border-radius: 50px;
+    margin: 1em;
+}
+.social-icons .icon a i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #385A64;
+}
+.social-icons .icon:hover,.icon a i:hover{
+    background: #fbbc05;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.copyright p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.copyright p i{
+    color: #9b0a0a;
+}

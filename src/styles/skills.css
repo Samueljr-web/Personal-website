@@ -1,0 +1,42 @@
+
+.skills h2{
+    text-align: center;
+    color: #385A64;
+}
+.skill .skills-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding-top: 3em;
+}
+.skill h4{
+    font-size: 1.4em;
+    font-family:  cursive;
+    padding: 2em 0 0 2em;
+}
+.skill .skills-box .box{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    height:7em;
+    box-shadow: 0 2px 2px  #ddd;
+    margin: 1em;
+}
+.skill .box i {
+    font-size: 2.5em;
+    color: #fbbc05;
+}
+.skill .box h3{
+    color: #385A64;
+}
+
+@media screen and (max-width:700px){
+    .skill .skills-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
