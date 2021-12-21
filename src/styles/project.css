@@ -2,6 +2,7 @@
 .project h2{
     text-align: center;
     color: #385A64;
+    padding-top: 2em;
 }
 .projectCard{
     display: grid;
@@ -10,7 +11,7 @@
 .card{
     width:  16em;
     height: auto;
-    box-shadow: 5px 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
     margin: 1em;
 }
 .projectImg img{
@@ -21,6 +22,8 @@
 }
 .projectButtons button{
     background: #fbbc05;
+    color: #ffffff;
+    font-weight: bold;
     border: none;
     padding: 0.5em 2em;
     margin: 0 1em 0;
@@ -28,6 +31,8 @@
 }
 .projectButtons .btn{
     background: transparent;
+    color: #fbbc05;
+    font-weight: bold;
     border: 1px solid #fbbc05;
 }
 
