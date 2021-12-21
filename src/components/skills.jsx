@@ -1,12 +1,12 @@
 import React from 'react';
-import { FaBootstrap, FaCss3Alt, FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaBootstrap, FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import { SiJquery } from 'react-icons/si'
 import { SkillsData } from '../data/data';
 import '../styles/skills.css';
 const Skills = (props) => {
     return (  
         <div className="skills" id="skills">
-            <h2>Technologies</h2>
+            <h2>Tools & Technologies</h2>
             <Section data={SkillsData} />
         </div>
     );
@@ -46,8 +46,19 @@ const Section = (props) => {
             </div>
            <div>
         </div>
- </div>
-        </div>
+      </div>
+      <h4>{props.data.tools} &raquo;</h4>
+       <div className='skills-box'>
+       <div className="box">
+                <i><FaGitAlt /></i>
+                <h3>Git</h3>
+            </div>
+       <div className="box">
+                <i><FaGithub /></i>
+                <h3>Github</h3>
+            </div>
+       </div>
+    </div>
      );
 }
  

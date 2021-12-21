@@ -7,7 +7,7 @@ const HeroSection = () => {
             <div className="description">
              <h2>Hello there!</h2>
                 <p>
-                  i'm Samuel, a front end Developer.<br />
+                  i'm Samuel, a frontend Developer.<br />
                     from nigeria,<br /> i design websites and<br /> web apps.   
                  </p>
                <div className="buttons">
